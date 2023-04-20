@@ -4,15 +4,19 @@
 \name{fieldprintr-package}
 \alias{fieldprintr}
 \alias{fieldprintr-package}
-\title{fieldprintr: What the Package Does (Title Case)}
+\title{fieldprintr: Functions to complement the Fieldprint Platform}
 \description{
-More about what it does (maybe more than one line) Use four spaces when indenting paragraphs within the Description.
+Internal package for Field to Market that complements the Fieldprint Platform.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://field-to-market.github.io/fieldprintr/}
 }
+
+}
+\author{
+\strong{Maintainer}: Austin Pearce \email{apearce@fieldtomarket.org}
 
 }
 \keyword{internal}

@@ -8,7 +8,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of fieldprintr is to …
+The goal of fieldprintr is to complement the [Fieldprint
+Platform](https://calculator.fieldtomarket.org/) of Field to Market.
 
 ## Installation
 
@@ -20,7 +21,10 @@ pak::pkg_install("Field-to-Market/fieldprintr")
 
 ## Example
 
-This is a basic example which shows you how to …
+From the the Fieldprint Platform, users can export a comprehensive data
+`.xlsx` file for further analysis. The following example demonstrates a
+standardized function for importing the CD file and cleaning up column
+names prior to analysis.
 
 ``` r
 library(fieldprintr)
@@ -48,9 +52,3 @@ head(candyland)
 #> #   water_erosion_ton_acre_year <dbl>, wind_erosion_ton_acre_year <dbl>,
 #> #   total_sci_points <dbl>, soil_carbon <dbl>, …
 ```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/v1/examples>.
